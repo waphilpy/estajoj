@@ -15,9 +15,9 @@ pub struct SimulationParams {
 impl Default for SimulationParams {
     fn default() -> Self {
         Self {
-            interaction_chance: 0.3,
-            reproduction_chance: 0.1,
-            hunger_tick_chance: 0.5, 
+            interaction_chance: 0.35,
+            reproduction_chance: 0.2,
+            hunger_tick_chance: 0.2, 
             ambition_tick_chance: 0.2,
             simulation_duration: 100,
             initial_population: 10,
